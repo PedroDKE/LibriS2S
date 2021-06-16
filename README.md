@@ -1,5 +1,5 @@
 # LibrivoxDeEn-English-Allignments
-This repo contains scripts and allignment data to create a dataset build further upon [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/) that contains (german audio, german transcription, english audio, english transcription) quadruplets
+This repo contains scripts and allignment data to create a dataset build further upon [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/) such that it contains (german audio, german transcription, english audio, english transcription) quadruplets and can be used for Speech-to-Speech translation research
 ### Scraping a book from Librivox
 To download all chapters from a librivox url the following command can be used:
 ```
