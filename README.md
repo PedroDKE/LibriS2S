@@ -23,4 +23,10 @@ python align_text_and_audio.py \
 **note:** the example folder in this repo already contains the first two chapters from [Undine](https://librivox.org/undine-by-friedrich-de-la-motte-fouque/) scraped from librivox and their transcripts and (modified) tsv table retrieved from [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/).
 Additional data to align can be scraped by using the same file shown previously and combined with the provided data from LibriVoxDeEn
 
-Additionally with this repo the full allignment for 9 other books are given
+Additionally with this repo the full allignment for the 8 following books with the LibrivoxDeEn id's are also given:
+[9](https://librivox.org/the-picture-of-dorian-gray-1891-version-by-oscar-wilde/),[10](https://librivox.org/pandoras-box-by-frank-wedekind/),[13](https://librivox.org/survivors-of-the-chancellor-by-jules-verne/),[18](https://librivox.org/undine-by-friedrich-de-la-motte-fouque/),[23](https://librivox.org/around-the-world-in-80-days-by-jules-verne/),[108](https://librivox.org/elective-affinities-by-johann-wolfgang-von-goethe/),[110](https://librivox.org/candide-by-voltaire-3/),[120](https://librivox.org/the-metamorphosis-by-franz-kafka/).
+
+Other books such as [11](https://librivox.org/the-castle-of-otranto-by-horace-walpole/),[36](https://librivox.org/the-rider-on-the-white-horse-by-theodor-storm/),[67](https://librivox.org/frankenstein-or-the-modern-prometheus-1818-by-mary-wollstonecraft-shelley/) are also inside of the librivoxDeEn dataset but the chapters do not correspond in a 1:1 mannner(for example: the German version of book 67 has 27 chapters but the English version has 29 and thus need to be re-aligned before the allignment script in this repo will work.). Therefore these alignments are not given since they could be different depending on the cutting points. 
+
+
+
