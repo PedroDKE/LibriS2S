@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Dec  5 11:59:37 2020
-
-@author: Pedro Antonio
-"""
-
 import requests
 import os
 import argparse
