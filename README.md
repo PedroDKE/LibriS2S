@@ -16,6 +16,7 @@ python align_text_and_audio.py \
 --aeneas_path ./example/aeneas/ \
 --en_audio_export_path ./example/sentence_level_audio/ \
 --total_alignment_path ./example/bi-lingual-alignment/ \
+--librivoxdeen_alignment ./example/undine_data.tsv \
 ```
 **note:** the example folder in this repo already contains the first two chapters from [Undine](https://librivox.org/undine-by-friedrich-de-la-motte-fouque/) scraped from librivox and their transcripts and (modified) tsv table retrieved from [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/).
 Additional data to align can be scraped by using the same file shown previously and combined with the provided data from LibriVoxDeEn
