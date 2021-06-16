@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
-import requests
 import os
 import argparse
+import requests
 from bs4 import BeautifulSoup
 
 parser = argparse.ArgumentParser(description='A program to download all the chapters in a given librivox URL.')
-parser.add_argument("-S",
-                    "--save_dir",
+parser.add_argument("--save_dir",
                     default="./chapters",
                     help='directory to save the downloaded chapters. If the directory does not exist it will be made.',
                     required=False,
                     type=str)
 
-parser.add_argument("-U",
-                    "--url",
+parser.add_argument("--url",
                     help='URL to audiobook.',
                     required=True,
                     type=str)
@@ -27,7 +25,7 @@ hrefs = []
 for c in results:
     hrefs.append(c['href'])
 print('found {} chapters to download'.format(len(hrefs)))
-    
+
 if not os.path.exists(args.save_dir):
     os.makedirs(args.save_dir)
     print('made new directory at:',args.save_dir)
