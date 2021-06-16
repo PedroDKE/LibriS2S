@@ -1,4 +1,5 @@
 # LibrivoxDeEn-English-Allignments
+This repo contains tools and allignment data to create a dataset build further upon [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/) that contains (german audio, german transcription, english audio, english transcription) quadruplets
 ### Scraping a book from Librivox
 To download all chapters from a librivox url the following command can be used:
 ```
@@ -20,7 +21,7 @@ python align_text_and_audio.py \
 --aeneas_head_max 120 \
 --aeneas_tail_min 5 \
 ```
-**note:** the example folder in this repo already contains the first two chapters from [Undine](https://librivox.org/undine-by-friedrich-de-la-motte-fouque/) scraped from librivox and their transcripts and (modified) tsv table retrieved from [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/).
+**note:** the example folder in this repo already contains the first two chapters from [Undine](https://librivox.org/undine-by-friedrich-de-la-motte-fouque/) scraped from librivox and their transcripts and (modified) tsv table retrieved from LibrivoxDeEn .
 Additional data to align can be scraped by using the same file shown previously and combined with the provided data from LibriVoxDeEn
 
 Additionally with this repo the full allignment for the 8 following books with the LibrivoxDeEn id's are also given:
