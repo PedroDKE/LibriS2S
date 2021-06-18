@@ -1,0 +1,5 @@
+aeneas=1.7.3.0
+pandas>=1.1.4
+pydub=0.24.1
+beautifulsoup4=4.9.3
+requests=2.25.1
