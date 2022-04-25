@@ -1,6 +1,6 @@
 # LibriS2S
 This repo contains scripts and alignment data to create a dataset build further upon [librivoxDeEn](https://www.cl.uni-heidelberg.de/statnlpgroup/librivoxdeen/) such that it contains (German audio, German transcription, English audio, English transcription) quadruplets and can be used for Speech-to-Speech translation research. Because of this, the alignments are released under the same [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) <div>
- These alignments were collected by downloading the English audiobooks and using [aeneas](https://github.com/readbeyond/aeneas) to align the book chapters to the transcripts.
+ These alignments were collected by downloading the English audiobooks and using [aeneas](https://github.com/readbeyond/aeneas) to align the book chapters to the transcripts. For more information read the original [paper](https://arxiv.org/abs/2204.10593)
 ### Scraping a book from Librivox
 To download all chapters from a librivox url the following command can be used:
 ```
@@ -42,4 +42,35 @@ note: the speakers were counted for each book seperatly so some speakers might b
 
 the number of hours for each book alligned in this repo:<br>
 <img src="https://user-images.githubusercontent.com/43861296/122250648-1f5f7f80-ceca-11eb-84fd-344a2261bf47.png" width="500">
+ 
+ when using this work, please cite the original paper and the LibrivoxDeEn authors
+ ```
+ @misc{Jeuris2022,
+  doi = {10.48550/ARXIV.2204.10593},
+  
+  url = {https://arxiv.org/abs/2204.10593},
+  
+  author = {Jeuris, Pedro and Niehues, Jan},
+  
+  title = {LibriS2S: A German-English Speech-to-Speech Translation Corpus},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+ ```
+ ```
+ @article{beilharz19,
+  title = {LibriVoxDeEn: A Corpus for German-to-English Speech Translation and Speech Recognition},
+  author = {Beilharz, Benjamin and Sun, Xin and Karimova, Sariya and Riezler, Stefan},
+  journal = {Proceedings of the Language Resources and Evaluation Conference},
+  journal-abbrev = {LREC},
+  year = {2020},
+  city = {Marseille, France},
+  url = {https://arxiv.org/pdf/1910.07924.pdf}
+}
+```
+ 
 
