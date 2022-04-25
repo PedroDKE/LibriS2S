@@ -47,17 +47,11 @@ the number of hours for each book alligned in this repo:<br>
  ```
  @misc{Jeuris2022,
   doi = {10.48550/ARXIV.2204.10593},
-  
   url = {https://arxiv.org/abs/2204.10593},
-  
   author = {Jeuris, Pedro and Niehues, Jan},
-  
   title = {LibriS2S: A German-English Speech-to-Speech Translation Corpus},
-  
   publisher = {arXiv},
-  
   year = {2022},
-  
   copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
  ```
