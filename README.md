@@ -3,7 +3,7 @@ This repo contains scripts and alignment data to create a dataset build further 
  These alignments were collected by downloading the English audiobooks and using [aeneas](https://github.com/readbeyond/aeneas) to align the book chapters to the transcripts. For more information read the original [paper](https://arxiv.org/abs/2204.10593) (Presented at LREC 2022)
 
 ### The data
-The English/German audio are available in the folder EN/DE respectively. <br/>
+The English/German audio are available in the folder EN/DE respectively and can be downloaded from [this onedrive](https://1drv.ms/u/s!Aox92ivMmuTc-i1Hf4iTugnhQ0Yi?e=pvvPeH). In case there are any problems with the download, feel free to open an issue <br/>
 The repo structure is as follow:
 - Alignments : Contains all the alignments for each book and chapter
 - DE : Contains the German audio for each chapter per book.
@@ -12,7 +12,7 @@ The repo structure is as follow:
 - LibrivoxDeEn_alignments : Contains the base alignments from the LibrivoxDeEn dataset. <br/>
 
 In case you feel a part of the data is missing, feel free to open an issue!
-The full repo is about 24.7 GB of size.
+The full zipfile is about 52 GB of size.
 
 ### Scraping a book from Librivox
 To download all chapters from a librivox url the following command can be used:
