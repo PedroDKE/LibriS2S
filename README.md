@@ -43,7 +43,7 @@ Additionally with this repo the full alignment for the 8 following books with fo
 
 Other books such as [11](https://librivox.org/the-castle-of-otranto-by-horace-walpole/), [36](https://librivox.org/the-rider-on-the-white-horse-by-theodor-storm/), [67](https://librivox.org/frankenstein-or-the-modern-prometheus-1818-by-mary-wollstonecraft-shelley/) and [54](https://librivox.org/white-nights-other-stories-by-fyodor-dostoyevsky/) are also inside of the librivoxDeEn dataset but the chapters do not correspond in a 1:1 mannner(for example: the German version of book 67 has 27 chapters but the English version has 29 and thus need to be re-aligned before the allignment script in this repo will work). Therefore these alignments are given but might have be different if you scrape them yourselves as the re-alignments might be different for you.
 ### Metrics on the alignment given in this repo.
-Using the alignments given in this repo some metrics were collected and quickly displayed here
+Using the alignments given in this repo some metrics were collected and quickly displayed here, for this table and the next figure the books which were manually alligned, although provided in the zip, were not accounted for, but the full table can be found in the original paper.
 |  | German | English  |
 | :---:   | :-: | :-: |
 |number of files  | 18868 | 18868 |
