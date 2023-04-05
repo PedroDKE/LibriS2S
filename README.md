@@ -12,7 +12,7 @@ The repo structure is as follow:
 - LibrivoxDeEn_alignments : Contains the base alignments from the LibrivoxDeEn dataset. <br/>
 
 In case you feel a part of the data is missing, feel free to open an issue!
-The full zipfile is about 52 GB of size.
+The full zipfile is about 20 GB of size.
 
 ### Scraping a book from Librivox
 To download all chapters from a librivox url the following command can be used:
